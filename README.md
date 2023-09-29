@@ -6,11 +6,11 @@ By adding new crops, covered wagons, cannons, ships and more, we hope to enhance
 ## Added
 * Garlic Crops, Crates and Items
 
-##In Progress
+## In Progress
 * Hangman's Noose
 * Raw Venison
 
-##To Do
+## To Do
 * Alex's Mobs-esque Lobsters
 * Blueberries
 * Pyre
