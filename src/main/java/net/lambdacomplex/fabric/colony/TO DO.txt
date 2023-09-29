@@ -1,0 +1,18 @@
+TO DO:
+========================================
+-Fix Loot Tables not functioning when breaking crops with hand. Works when trampling. [x]
+-Add Required(?) Dependency Farmer's Delight for Fabric [x]
+-Add Optional Dependency of Create []
+-Remove Garlic Recipe [x]
+-Create Wild Garlic Plant, Have it spawn randomly [x]
+-Connect to GitHub[]
+
+
+
+
+1.20:
+=========================================
+-Add Mummy Dust in Suspicious Sand
+
+BUGS:
+========================================

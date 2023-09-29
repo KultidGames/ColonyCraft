@@ -1,0 +1,10 @@
+Useful Sources
+==============================
+https://cursemaven.com/
+
+The Farmers Delight code is under Gradle:net_fabricmc <-- the first one, ends in 0626 (Bookmarked)
+
+
+
+For Noose:
+-Entity, Decoration, Leash Knot Entity

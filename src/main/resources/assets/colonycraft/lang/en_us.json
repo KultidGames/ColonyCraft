@@ -1,0 +1,12 @@
+{
+  "item.colonycraft.venison": "Venison",
+  "item.colonycraft.itemicon": "Icon",
+  "item.colonycraft.garlic": "Garlic",
+  "item.colonycraft.noose": "Hangman's Noose",
+
+  "block.colonycraft.garliccrop": "Garlic Crop",
+  "block.colonycraft.wildgarlic": "Wild Garlic",
+  "block.colonycraft.crategarlic": "Garlic Crate",
+
+  "itemGroup.colonycraft.colony_group": "Colony Craft"
+}

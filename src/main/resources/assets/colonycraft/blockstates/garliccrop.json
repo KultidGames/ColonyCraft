@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "age=0": { "model":  "colonycraft:block/garliccrop_stage0"},
+    "age=1": { "model":  "colonycraft:block/garliccrop_stage1"},
+    "age=2": { "model":  "colonycraft:block/garliccrop_stage2"},
+    "age=3": { "model":  "colonycraft:block/garliccrop_stage3"},
+    "age=4": { "model":  "colonycraft:block/garliccrop_stage4"},
+    "age=5": { "model":  "colonycraft:block/garliccrop_stage5"},
+    "age=6": { "model":  "colonycraft:block/garliccrop_stage6"}
+  }
+}
