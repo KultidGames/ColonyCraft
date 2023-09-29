@@ -5,7 +5,7 @@ TO DO:
 -Add Optional Dependency of Create []
 -Remove Garlic Recipe [x]
 -Create Wild Garlic Plant, Have it spawn randomly [x]
--Connect to GitHub[]
+-Connect to GitHub[x]
 
 
 

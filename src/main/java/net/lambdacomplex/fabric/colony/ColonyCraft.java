@@ -33,6 +33,7 @@ public class ColonyCraft implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModEntities.registerAll();
 		ModConfiguredRegistry.registerAll();
 		PlacementModifiersRegistry.registerAll();
 	//	FabricDefaultAttributeRegistry.register(ModEntities.NOOSE_ENTITY, NooseKnotEntity.);

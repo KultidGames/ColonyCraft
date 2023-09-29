@@ -1,8 +1,3 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
-
 package net.lambdacomplex.fabric.colony.entity.decoration;
 
 import java.util.Iterator;
@@ -45,14 +40,6 @@ public class NooseKnotEntity extends AbstractDecorationEntity {
         super(ModEntities.NOOSE_ENTITY, world ,pos);
         this.setPosition((double)pos.getX(), (double)pos.getY(), (double)pos.getZ());
     }
-
-
-
-/*    public NooseKnotEntity(World world, BlockPos pos) {
-        super(entityType, world, pos);
-        this.setPosition((double)pos.getX(), (double)pos.getY(), (double)pos.getZ());
-   } */
-
 
 
     protected void updateAttachmentPosition() {

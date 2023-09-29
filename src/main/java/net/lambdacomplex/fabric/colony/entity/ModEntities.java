@@ -11,7 +11,10 @@ import net.minecraft.util.Identifier;
 
 public class ModEntities {
 
-    public static final EntityType<NooseKnotEntity> NOOSE_ENTITY = Registry.register(Registries.ENTITY_TYPE, new Identifier(ColonyCraft.MODID, "noose_entity"), FabricEntityTypeBuilder.create(SpawnGroup.MISC, NooseKnotEntity::new).build());
+    public static EntityType<NooseKnotEntity> NOOSE_ENTITY;
 
+    public static void registerAll() {
+       NOOSE_ENTITY = Registry.register(Registries.ENTITY_TYPE, new Identifier(ColonyCraft.MODID, "noose_entity"), FabricEntityTypeBuilder.<NooseKnotEntity>create(SpawnGroup.MISC, NooseKnotEntity::new).build());
+    }
 
 }
