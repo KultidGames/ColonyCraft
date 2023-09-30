@@ -5,8 +5,6 @@ import net.lambdacomplex.fabric.colony.item.ModItems;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.mob.MobEntity;
-import net.minecraft.entity.mob.Monster;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Items;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.nbt.NbtHelper;
@@ -37,12 +35,12 @@ public class NoosedEntity extends MobEntity {
             }
         }
     }
-    public boolean canBeNoosedBy(PlayerEntity player) {
+ /*   public boolean canBeNoosedBy(PlayerEntity player) {
         return !this.isNoosed() && !(this instanceof Monster);
     }
     public boolean isNoosed() {
         return this.holdingEntity != null;
-    }
+    } */
     protected void updateNoose() {
         if (this.nooseNbt != null) {
             this.readNooseNbt();
@@ -65,7 +63,7 @@ public class NoosedEntity extends MobEntity {
             }
 
             if (!this.world.isClient && sendPacket && this.world instanceof ServerWorld) {
-                ((ServerWorld)this.world).getChunkManager().sendToOtherNearbyPlayers(this, new EntityAttachS2CPacket(this, (Entity)null));
+                ((ServerWorld)this.world).getChunkManager().sendToOtherNearbyPlayers(this, new EntityAttachS2CPacket(this, null));
             }
         }
     }
@@ -105,9 +103,7 @@ public class NoosedEntity extends MobEntity {
     protected void removeFromDimension() {
         super.removeFromDimension();
         this.detachNoose(true, false);
-        this.getItemsEquipped().forEach((stack) -> {
-            stack.setCount(0);
-        });
+        this.getItemsEquipped().forEach((stack) -> stack.setCount(0));
     }
 
 
