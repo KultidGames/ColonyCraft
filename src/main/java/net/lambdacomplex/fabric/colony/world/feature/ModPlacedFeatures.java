@@ -9,7 +9,7 @@ import java.util.List;
 
 public class ModPlacedFeatures {
 
- //   public static RegistryEntry<PlacedFeature> WILD_GARLIC_PLACED = PlacedFeatures.register("wild_garlic_placed", ModConfiguredFeatures);
+ ///  public static RegistryEntry<PlacedFeature> WILD_GARLIC_PLACED = PlacedFeatures.register("wild_garlic_placed", ModConfiguredFeatures);
 
 
 

@@ -2,17 +2,26 @@ TO DO:
 ========================================
 -Fix Loot Tables not functioning when breaking crops with hand. Works when trampling. [x]
 -Add Required(?) Dependency Farmer's Delight for Fabric [x]
--Add Optional Dependency of Create []
 -Remove Garlic Recipe [x]
 -Create Wild Garlic Plant, Have it spawn randomly [x]
 -Connect to GitHub[x]
-
+-Make Configuration File []
+-Add Textures to SweetPotatoes []
+-Add Cooked Venison []
+-Add Blueberries and Blueberry Bushes []
+-Add Pemmican []
+-Add Maize []
+-Fix Noose []
+-Add Apple Block []
 
 
 
 1.20:
 =========================================
 -Add Mummy Dust in Suspicious Sand
+-Add Create as an Optional Dependency
+-Add Spelunkery as an Optional Dependency
+-Add Salted Wheat Dough, Add Recipes to Hardtack
 
 BUGS:
 ========================================

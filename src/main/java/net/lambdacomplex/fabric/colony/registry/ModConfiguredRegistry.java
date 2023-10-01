@@ -10,7 +10,8 @@ import net.minecraft.world.gen.feature.PlacedFeature;
 
 public enum ModConfiguredRegistry {
 
-    PATCH_WILD_GARLIC("patch_wild_garlic");
+    PATCH_WILD_GARLIC("patch_wild_garlic"),
+    PATCH_WILD_SWEETPOTATO("patch_wild_sweetpotato");
 
     private final Identifier featureIdentifier;
     private RegistryKey<ConfiguredFeature<?, ?>> ModConfiguredRegistryKey;

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "colonycraft:cratesweetpotato"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "colonycraft:sweetpotato"
+  }
+}

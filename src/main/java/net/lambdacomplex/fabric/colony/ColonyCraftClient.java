@@ -14,5 +14,7 @@ public class ColonyCraftClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GARLIC_CROP, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WILD_GARLIC, RenderLayer.getCutout());
         EntityRendererRegistry.register(ModEntities.NOOSE_ENTITY, NooseKnotEntityRenderer::new);
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SWEETPOTATO_CROP, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WILD_SWEETPOTATO, RenderLayer.getCutout());
     }
 }

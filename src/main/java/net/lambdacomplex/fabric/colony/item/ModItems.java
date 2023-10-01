@@ -21,7 +21,9 @@ public class ModItems {
     public static final Item VENISON = registerItems("venison", new Item(new FabricItemSettings().food(ModFoodComponents.VENISON)), ModItemGroup.COLONYGROUP);
     public static final Item GARLIC = registerItems("garlic", new AliasedBlockItem(ModBlocks.GARLIC_CROP, new FabricItemSettings().food(ModFoodComponents.GARLIC)), ModItemGroup.COLONYGROUP);
     public static final Item NOOSE = registerItems("noose", new NooseItem(new FabricItemSettings()), ModItemGroup.COLONYGROUP);
-
+    public static final Item SWEETPOTATO = registerItems("sweetpotato", new AliasedBlockItem(ModBlocks.SWEETPOTATO_CROP, new FabricItemSettings().food(ModFoodComponents.SWEETPOTATO)), ModItemGroup.COLONYGROUP);
+    public static final Item HARDTACK = registerItems("hardtack", new Item(new FabricItemSettings().food(ModFoodComponents.HARDTACK)), ModItemGroup.COLONYGROUP);
+    public static final Item TESTER = registerItems("test", new AliasedBlockItem(ModBlocks.APPLE_CROP, new FabricItemSettings()), ModItemGroup.COLONYGROUP);
     //Item Registry Ends Here===============================]
 
 

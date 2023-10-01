@@ -3,10 +3,15 @@
   "item.colonycraft.itemicon": "Icon",
   "item.colonycraft.garlic": "Garlic",
   "item.colonycraft.noose": "Hangman's Noose",
+  "item.colonycraft.sweetpotato": "Sweet Potato",
+  "item.colonycraft.hardtack": "Hardtack",
 
   "block.colonycraft.garliccrop": "Garlic Crop",
   "block.colonycraft.wildgarlic": "Wild Garlic",
   "block.colonycraft.crategarlic": "Garlic Crate",
+  "block.colonycraft.sweetpotatocrop": "Sweet Potato Crop",
+  "block.colonycraft.wildsweetpotato": "Wild Sweet Potato",
+  "block.colonycraft.cratesweetpotato": "Sweet Potato Crate",
 
   "entity.colonycraft.noose_entity": "Hangman's Noose",
 

@@ -1,9 +1,9 @@
 {
-  "feature": "colonycraft:patch_wild_garlic",
+  "feature": "colonycraft:patch_wild_sweetpotato",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
-      "chance": 100
+      "chance": 1
     },
     {
       "type": "minecraft:in_square"

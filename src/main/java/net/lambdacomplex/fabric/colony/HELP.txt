@@ -4,7 +4,9 @@ https://cursemaven.com/
 
 The Farmers Delight code is under Gradle:net_fabricmc <-- the first one, ends in 0626 (Bookmarked)
 
-
+To Add a Dependency:
+======================
+-Find the mod on CurseForge, copy the CurseMaven snippet, add to build.gradle, rebuild
 
 For Noose:
 -Entity, Decoration, Leash Knot Entity
